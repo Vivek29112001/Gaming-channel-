@@ -1,0 +1,13 @@
+
+ .App{
+  /* background: blue;
+  background-color: black; */
+  width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+ }
+
+ .Mainsection{
+  background-color: wheat;
+ }
+

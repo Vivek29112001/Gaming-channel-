@@ -1,0 +1,262 @@
+*:root{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size:1rem bold;
+    --primary: #3acbf7
+}
+
+html{
+    font-size: 63.90%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.main-nav{
+    width: 100vw;
+    background-color: #7f44f8;
+    height: 5.5rem;
+    display: grid;
+    grid-template-columns: 3rem .5fr 2fr .4fr 3rem;
+}
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.logo h2{
+    font-size: 2.9rem;
+    font-weight: bold;
+    background-color: white;
+    color: white;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.menu-link ul li{
+    font-size: 1.81rem;
+}
+
+
+
+/* .................button.......................... */
+
+.btnbb{
+    margin:8px 0px 8px 0px;
+    border-radius: 20px;
+    border-color: #fff;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: large;
+    color: #7f44f8;
+    float: right;
+    cursor: pointer;
+}
+
+
+/* ........................Mainsection......................... */
+.Main-section{
+    /* border: px solid #fff; */
+    /* padding: 20px; */
+    /* background-color: #7F44F8; */
+    width: 100vw;
+    height:100vh;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr */
+  }
+
+ .sidebar{
+    width: 17%;
+    /* grid-column: 1/5; */
+    height: 100vh;
+    background-color: #fff;
+    display: grid; 
+    float: left;
+    /* padding: 2px; */
+  }
+  
+  .mainbar{
+    display: flex; 
+    width: 83%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 2px;
+    border-left: .5px solid #7F44F8;
+    background-color:#fff;
+    overflow-y: scroll;
+  }
+
+  .login{
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 160px;
+    height: 35px;
+    margin-top: 25px; 
+    font-size:15px;
+    background-color: #7F44F8;
+    color: white ;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  /* .login :hover{
+    width: 180px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #7F44F8;
+    font-weight: bolder;
+  } */
+
+  .publiclibrary{
+    color: #7F44F8;
+    font-size:large;
+    margin: 25px;
+    margin-left: 10px;
+    font-weight:bold; 
+   }
+.sideone{
+    width: 100vw;
+}
+  
+  .Sidenavbar{
+    margin-top: 20px ;
+    display: grid;
+    /* margin-left: 0px; */
+    height: auto;
+    text-align:start;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.863);
+    line-height: 2.5em;
+  }
+  .Sidenavbar :hover{
+    background-color: #7f44f8;
+    margin-left: -19px;
+    color: #fff;
+    
+  }
+
+  .mainbar{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+  }
+  .mainbar .container{
+    width: 100vw;
+    margin-left: 10px;
+  }
+
+  .container1{
+    height: auto;
+  }
+  .row{
+    margin-bottom: 30px;
+  }
+  .row1{
+    height: 130px;
+    border-radius:200px;
+    cursor: pointer;
+  }
+  .pp3{
+    height: 130px;
+    border-radius: 16px 16px 0px 0px;
+  }
+
+
+  
+ /* ........................ Search bar.................. */
+
+ .search-bar{
+    margin-right: 42px;
+    color: transparent;
+    /* background-color: #fff; */
+ }
+
+ .Search-container input[type=text] {
+    float: left;
+    background-color: transparent;
+    padding: 6px;
+    /* color: #fff; */
+    margin-top: 8px;
+    margin-left: 40px;
+    border-radius: 16px;
+    border-color:white;
+    font-size: 17px;
+    width: 770px;
+  }
+
+  .Search-container ::placeholder{
+    color: #fff;
+    font-size:large;
+    /* font-style:normal; */
+    font-weight: bold;
+    
+  }
+
+
+
+  /* heart checkbox */
+  input[type="checkbox"]{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    outline: none;
+    transform: rotate(45deg); 
+    -webkit-appearance: none;
+  }
+  input[type="checkbox"]::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 60%;
+    width: 100%;
+    top: -59%;
+    border-radius: 75px 75px 0 0;
+  }
+
+  input[type="checkbox"]::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 60%;
+    width: 100%;
+    transform: rotate(-90deg);
+    border-radius: 75px 75px 0 0;
+    top: 20%;
+    right: 79%;
+  }
+  input[type="checkbox"]:checked,
+  input:checked[type="checkbox"]:before,
+  input:checked[type="checkbox"]::after{
+    background-color: #fe0f42;
+  }
+
+
+
+  /* {-------------------------img_small------------} */
+  .row2{
+    margin-top: 9px;
+    /* margin-left: 20px; */
+  }
+
+  
+  .img_small{
+    /* margin-top: 9px; */
+    margin-left: 15px;
+    height: 30px;
+    border-radius: 100%;
+    width: 30px;
+  }
+
+  .span{
+    font-size: 10px;
+    font-weight: bold;
+    color: solid black;
+  }
+  /* // css example */
+
